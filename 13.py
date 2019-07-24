@@ -1,9 +1,9 @@
-def invert_map(dictionary):
+def invert_dic(dictionary):
     inverted_dic = {}
     for k, v in dictionary.items():
-        inverted_dic['{}'.format(v)] = k
+        inverted_dic[f'{v}'] = k
     print(inverted_dic)
 
 
 if __name__ == '__main__':
-    invert_map({'a': 1, 'b': 3})
+    invert_dic({'a': 1, 'b': 3})
