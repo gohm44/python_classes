@@ -9,11 +9,14 @@ def invert_dic(string):
         znak = string[k]
         if znak in histogram:
              histogram[string[k]] += 1
-        histogram[string[k]] = 1
+        else:
+            histogram[string[k]] = 1
         print(string[k])
     print(histogram)
 
+# from collections import Counter, defaultdict
+# isalpha()
 
 
 if __name__ == '__main__':
-    invert_dic("Go Relayr!")
+    invert_dic("Go Relayyr!")

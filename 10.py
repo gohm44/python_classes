@@ -6,6 +6,8 @@ def interslave(elementy1: list, elementy2: list):
         list_output.append(elementy2[e])
     print(list_output)
 
+# tu urzyc zipa gwiazdka
+# intertools from intertools import chain
 
 if __name__ == '__main__':
     interslave(elementy1=[31, 2, 3, 4, 5, 6], elementy2=[1, 42, 553, 4, 665, "f", 4])
